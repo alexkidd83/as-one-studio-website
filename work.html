@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work – AS_ONE Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html" style="font-weight: 700; font-size: 1.2rem">AS_ONE Studio</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="news.html">News</a>
+        <a href="clients.html">Clients &amp; Partners</a>
+        <a href="work-with-us.html">Work With Us</a>
+      </div>
+      <div class="nav-right">
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <section style="padding-top: 80px;">
+      <h2>Our Work</h2>
+      <p>Explore selected projects across campaigns, strategy, branding, and content &amp; production.</p>
+
+      <!-- Category filter links -->
+      <div style="margin-bottom: 2rem;">
+        <a href="#campaigns">Campaigns</a> ·
+        <a href="#strategy">Strategy</a> ·
+        <a href="#branding">Branding</a> ·
+        <a href="#content">Content &amp; Production</a> ·
+        <a href="#experiences">Experiences</a>
+      </div>
+
+      <!-- Campaigns -->
+      <section id="campaigns" class="case-section">
+        <h3>Campaigns</h3>
+        <div class="work-grid">
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Campaign Project 1</div>
+          </div>
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Campaign Project 2</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Strategy -->
+      <section id="strategy" class="case-section">
+        <h3>Strategy</h3>
+        <div class="work-grid">
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Strategy Project 1</div>
+          </div>
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Strategy Project 2</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Branding -->
+      <section id="branding" class="case-section">
+        <h3>Branding</h3>
+        <div class="work-grid">
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Branding Project 1</div>
+          </div>
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Branding Project 2</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content & Production -->
+      <section id="content" class="case-section">
+        <h3>Content &amp; Production</h3>
+        <div class="work-grid">
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Content Project 1</div>
+          </div>
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Content Project 2</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiences (optional) -->
+      <section id="experiences" class="case-section">
+        <h3>Experiences</h3>
+        <div class="work-grid">
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Experience Project 1</div>
+          </div>
+          <div class="work-item">
+            <a href="case-study.html" style="display: block; height: 150px;"></a>
+            <div class="overlay">Experience Project 2</div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; <span id="year"></span> AS_ONE Studio. All rights reserved.</p>
+      <div class="language-toggle">
+        <span>Language: <strong>EN</strong></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News – AS_ONE Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html" style="font-weight: 700; font-size: 1.2rem">AS_ONE Studio</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="news.html">News</a>
+        <a href="clients.html">Clients &amp; Partners</a>
+        <a href="work-with-us.html">Work With Us</a>
+      </div>
+      <div class="nav-right">
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <section style="padding-top: 80px;">
+      <h2>News &amp; Updates</h2>
+      <p>
+        Browse our news, features, events, and awards. Stay informed about the latest happenings at
+        AS_ONE Studio.
+      </p>
+      <div class="news-list">
+        <article class="news-item">
+          <h3>Feature: Creativity in Public Spaces</h3>
+          <p>
+            A recent interview with Anastasia Sapounaki explores how design transforms public
+            experiences. <a href="#">Read more</a>
+          </p>
+        </article>
+        <article class="news-item">
+          <h3>Award: Best Integrated Campaign 2025</h3>
+          <p>
+            We’re honoured to receive the Best Integrated Campaign Award at the XYZ Awards for our
+            work with the Culture Fest project. <a href="#">Learn more</a>
+          </p>
+        </article>
+        <article class="news-item">
+          <h3>Event: Storytelling Workshop</h3>
+          <p>
+            Join our upcoming workshop to deepen your brand storytelling skills. <a href="#">Register
+            here</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; <span id="year"></span> AS_ONE Studio. All rights reserved.</p>
+      <div class="language-toggle">
+        <span>Language: <strong>EN</strong></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

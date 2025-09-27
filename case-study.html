@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study – AS_ONE Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- Default to dark mode on case study pages for immersive storytelling -->
+  <body class="dark-mode">
+    <nav class="dark-mode">
+      <div class="nav-left">
+        <a href="index.html" style="font-weight: 700; font-size: 1.2rem">AS_ONE Studio</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="news.html">News</a>
+        <a href="clients.html">Clients &amp; Partners</a>
+        <a href="work-with-us.html">Work With Us</a>
+      </div>
+      <div class="nav-right">
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <div class="case-container">
+      <header class="case-header">
+        <h2>Project Title</h2>
+        <p>Tags: Campaigns · Branding · 2025</p>
+      </header>
+
+      <section class="case-section">
+        <h3>The Challenge</h3>
+        <p>
+          Describe what the client faced or the goal of the project. This section sets the
+          context for the problem that needed to be solved.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <h3>The Solution</h3>
+        <p>
+          Explain the creative process, strategy, and key decisions that led to the final
+          deliverable. Highlight collaboration, ideation, and execution.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <h3>The Result</h3>
+        <p>
+          Summarize the outcomes, impact, and success metrics. Include client feedback or
+          quantitative results if available.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <h3>Highlights</h3>
+        <p>
+          Outline notable moments, media used, or creative choices. You can include photos or
+          videos here to visually showcase the work. Replace this paragraph with your own
+          content and embed images using <code>&lt;img&gt;</code> tags or videos via appropriate embeds.
+        </p>
+      </section>
+    </div>
+
+    <footer class="dark-mode">
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; <span id="year"></span> AS_ONE Studio. All rights reserved.</p>
+      <div class="language-toggle">
+        <span>Language: <strong>EN</strong></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

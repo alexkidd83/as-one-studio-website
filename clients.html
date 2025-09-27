@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clients &amp; Partners – AS_ONE Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html" style="font-weight: 700; font-size: 1.2rem">AS_ONE Studio</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="news.html">News</a>
+        <a href="clients.html">Clients &amp; Partners</a>
+        <a href="work-with-us.html">Work With Us</a>
+      </div>
+      <div class="nav-right">
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <section style="padding-top: 80px;">
+      <h2>Clients &amp; Partners</h2>
+      <p>
+        We collaborate with forward-thinking organizations, brands, and cultural institutions. Each
+        name below links to a case study or the client’s own website.
+      </p>
+      <div class="clients-grid">
+        <div class="client-item">
+          <a href="case-study.html">Culture Fest</a>
+        </div>
+        <div class="client-item">
+          <a href="case-study.html">InnovateCo</a>
+        </div>
+        <div class="client-item">
+          <a href="case-study.html">Museum of Modern Art</a>
+        </div>
+        <div class="client-item">
+          <a href="https://www.example.com" target="_blank" rel="noopener">Urban Renewal Initiative</a>
+        </div>
+        <div class="client-item">
+          <a href="case-study.html">Global Media Group</a>
+        </div>
+        <div class="client-item">
+          <a href="https://www.example.com" target="_blank" rel="noopener">Food &amp; Culture Foundation</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; <span id="year"></span> AS_ONE Studio. All rights reserved.</p>
+      <div class="language-toggle">
+        <span>Language: <strong>EN</strong></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

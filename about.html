@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – AS_ONE Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html" style="font-weight: 700; font-size: 1.2rem">AS_ONE Studio</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="news.html">News</a>
+        <a href="clients.html">Clients &amp; Partners</a>
+        <a href="work-with-us.html">Work With Us</a>
+      </div>
+      <div class="nav-right">
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+
+    <section style="padding-top: 80px;">
+      <h2>About</h2>
+      <div class="about-container">
+        <div class="portrait">
+          Portrait
+        </div>
+        <div class="about-text">
+          <h3>Anastasia Sapounaki</h3>
+          <p>
+            Anastasia Sapounaki is a creative strategist and brand storyteller with a passion for weaving
+            narratives that move people and organizations. Through AS_ONE Studio, she collaborates with
+            a diverse network of creatives to deliver thoughtful, human-centered experiences.
+          </p>
+          <p>
+            Our philosophy centers on authenticity, collaboration, and cultural relevance. We believe
+            that great stories build meaningful connections and lasting impact.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Our Method</h2>
+      <div class="method">
+        <div class="method-step">
+          <h3>Discover</h3>
+          <p>
+            We start by understanding your goals, challenges, and audience. Through research and
+            workshops, we uncover insights that inform the creative direction.
+          </p>
+        </div>
+        <div class="method-step">
+          <h3>Design</h3>
+          <p>
+            Guided by strategy, we craft concepts, visual identities, and storytelling frameworks.
+            This stage is iterative and collaborative, ensuring alignment with your vision.
+          </p>
+        </div>
+        <div class="method-step">
+          <h3>Deliver</h3>
+          <p>
+            We bring ideas to life across channels—campaigns, experiences, and content—ensuring every
+            touchpoint resonates and delivers results.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; <span id="year"></span> AS_ONE Studio. All rights reserved.</p>
+      <div class="language-toggle">
+        <span>Language: <strong>EN</strong></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
